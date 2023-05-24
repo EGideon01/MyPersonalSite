@@ -30,14 +30,14 @@ for (let i = 0; i < 5; i++) {
   }
 
 //Button Inclusion
-    function showMic() {
-        var img = document.getElementById('mic');
-        img.style.visibility = 'visible';
+function showMic() {
+    var img = document.getElementById('mic');
+    img.style.visibility = 'visible';
 }
 //Button Inclusion
-    function hideMic() {
-        var img = document.getElementById('mic');
-        img.style.visibility = 'hidden';
+function hideMic() {
+    var img = document.getElementById('mic');
+    img.style.visibility = 'hidden';
 }
 
 
