@@ -1,5 +1,4 @@
 console.log("Wassup G")
-document.getElementById("mic").style.visibility = "hidden"
 
 //var list
 let bigolNum = 5
@@ -33,7 +32,12 @@ for (let i = 0; i < 5; i++) {
 //Button Inclusion
     function showMic() {
         var img = document.getElementById('mic');
-        img.style.visibility = 'invisible';
+        img.style.visibility = 'visible';
+}
+//Button Inclusion
+    function hideMic() {
+        var img = document.getElementById('mic');
+        img.style.visibility = 'hidden';
 }
 
 
