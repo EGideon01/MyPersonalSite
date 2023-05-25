@@ -1,0 +1,26 @@
+#EspenButton {
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%;
+    width: 8%;
+    height: 3rem;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+}
+
+#FlexboxArea {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 30%;
+    margin: 2em;
+}
+
+.flexy {
+    margin: 1em;
+    background-color: red;
+    border-style: dotted;
+    height: 50px;
+    width: 100px;
+}
