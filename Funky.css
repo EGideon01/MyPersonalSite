@@ -1,0 +1,73 @@
+#EspenButton {
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%;
+    width: 8%;
+    height: 3rem;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+}
+#BryceButton {
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%;
+    width: 8%;
+    height: 3rem;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+}
+#FunkyButton {
+    background-color: #663399;
+    color: white;
+    font-weight: bolder;
+    text-decoration: wavy underline black;
+    border-radius: 100%;
+    width: 10%;
+    height: 5rem;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+}
+#FunkyArea {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 1em;
+}
+#FunkyArea2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 1em;
+}
+#FunkyArea3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 1em;
+}
+#FunkyArea4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 1em;
+}
+#FunkyArea5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 1em;
+}
+
+.funky {
+    margin: 1em;
+    background-color: red;
+    border-style: dotted;
+    height: 50px;
+    width: 100px;
+}
