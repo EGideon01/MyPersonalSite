@@ -1,3 +1,13 @@
+#topArea {
+    background-color: #272727;
+    border: 20px rgba(153, 145, 145, 0.623);
+    border-style:solid;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align:center;
+}
+
+
 #BryceButton {
     background-color: #222222;
     color: white;
@@ -7,4 +17,74 @@
     width: 8%;
     height: 3rem;
     box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+    transform: translate3d(500,4,3);
+}
+
+#Name {
+    text-align:center;
+    font-size: 100px;
+    font-family: Arial, sans-serif
+}
+
+#socials {
+    display: flex;
+        flex-direction: row;
+        align-items:flex-start;
+        justify-content:center;
+    margin: 0px;
+    width: 2732px;
+    height: 75px;
+    font-size: 20px;
+}
+
+#linkedIn {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    letter-spacing: 2px;
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%;
+    width: 350px;
+    height: 50px;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+    transform: translate3d(200,4,3);
+}
+
+#workButton {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    letter-spacing: 2px;
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%;
+    width: 350px;
+    height: 50px;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+    transform: translate3d(200,400,3);
+}
+
+#schoolButton {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    letter-spacing: 2px;
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%;
+    width: 350px;
+    height: 50px;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+}
+
+#bodyArea {
+    background-color: gray;
+    height: 500px;
 }
